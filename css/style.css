@@ -1,0 +1,56 @@
+/* Regole Generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Regone di base contenitore */
+.contenitore {
+  width: 100%;
+  border: 1px solid;
+  padding: 20px;
+}
+
+/*  Regole generali box */
+.box {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 15px #000000;
+}
+.box:last-child {
+  margin-bottom: 0px;
+}
+
+/* Background inserimento città */
+#milano{
+  background-image: url(../img/milano.jpg);
+}
+#roma{
+  background-image: url(../img/roma.jpg);
+}
+#napoli{
+  background-image: url(../img/napoli.jpg);
+}
+
+/* Inserimento nome città */
+.intestazione {
+  width: 100%;
+  height: 100%;
+  background-color: rgba( 0, 0, 0, 0.5);
+  color: white;
+  position: relative;
+  text-shadow: 5px 5px 5px #000000;
+}
+.nome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-transform: uppercase;
+}
